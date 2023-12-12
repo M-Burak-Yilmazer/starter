@@ -28,7 +28,7 @@ const ProductsList = () => {
     <>
       <Header handleFilter={handleFilter} categories={categories} />
       <Form.Control
-        placeholder="Search Product..."
+        placeholder="Search Product...."
         type="search"
         className="w-50 m-auto"
         onChange={(e) => setSearch(e.target.value)}
